@@ -1,0 +1,16 @@
+aws_region              = "<aws_region>"
+ec2_ami                 = "<yourami>"
+ec2_instance_type       = "<your_type>"
+private_subnet_id       = ["<your_subnet_id>", "<your_subnet_id>"]
+ec2_key_name            = "<your_desired_name>"
+vpc_id                  = "<your_vpc_id>"
+rds_allocated_storage   = "<your_desired_value>"
+rds_engine              = "<your_desired_engine>"
+rds_instance_class      = "<your_desired_instance>"
+rds_identifier          = "<your_identifier>"
+rds_subnet_group_name   = "<your_desired_name>"
+instance_count          = 1
+db_subnet_group_description = "This is a stagig subnet group"
+Name                    =   "<your_desired_name>"
+public_subnet_id        =  [ "<your_subnet_id>",  "<your_subnet_id>"]
+ami_username            = "ubuntu" # if you widh to change in output.tf files also.
