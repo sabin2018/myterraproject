@@ -29,6 +29,9 @@ cd terraform/
 chmod +x destroy.sh
 ./destroy.sh
 ```
+```bash
+    cd terraform/ && chmod +x destroy.sh && ./destroy.sh &
+```
 Note: 
 1. Insert your desired values at terraform.tfvars and secrets.tfvars file.
 2.  Uncomment the .tfvars files in .gitignore file during the push if you wish to kept your variable unshare. 
