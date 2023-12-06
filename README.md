@@ -29,6 +29,7 @@ cd terraform/
 chmod +x destroy.sh
 ./destroy.sh
 ```
+or,
 ```bash
     cd terraform/ && chmod +x destroy.sh && ./destroy.sh &
 ```
